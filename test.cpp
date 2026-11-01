@@ -610,4 +610,3 @@ TEST_CASE("StudentTest - File exists") {
     std::ifstream f("StudentTest.cpp");
     CHECK_MESSAGE(f.good(), "StudentTest.cpp not found. You must create StudentTest.cpp with at least 20 test cases.");
 }
-</code>
